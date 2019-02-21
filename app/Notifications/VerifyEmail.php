@@ -42,10 +42,17 @@ class VerifyEmail extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line("Thank you for signing up with Wee-Document !.")
-                    ->line('Please verify your email account, by clicking the button.')
-                    ->action('Verify Account', route('verify', $this->user->token))
-                    ->line('If you didn\'t request this, please ignore.!');
+            ->from('admin@wedocuments', 'Wee-Documents')
+            ->subject('Account Verification')
+            ->action('ACtivate Account ', route('verify', $this->user->token))
+            ->line('Thank you for using our application!')
+            ->markdown('vendor.mail.welcome.index', [
+                'user' => $this->user->name,
+                'url' => route('verify', $this->user->token),
+                'title' => 'Email  Verification',
+                'message' => 'Please click on this link to verify your account',
+                'subcopy' => 'support@wee-documents.com'
+            ]);
     }
 
     /**
@@ -57,7 +64,6 @@ class VerifyEmail extends Notification
     public function toArray($notifiable)
     {
         return [
-            //
-        ];
+            ];
     }
 }
