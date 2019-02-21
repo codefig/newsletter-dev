@@ -42,7 +42,7 @@ class VerifyEmail extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->from('admin@wedocuments', 'Wee-Documents')
+            ->from('support@wee-documents.com', 'Wee-Documents')
             ->subject('Account Verification')
             ->action('ACtivate Account ', route('verify', $this->user->token))
             ->line('Thank you for using our application!')
