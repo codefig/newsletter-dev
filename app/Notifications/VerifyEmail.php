@@ -46,7 +46,7 @@ class VerifyEmail extends Notification
             ->subject('Account Verification')
             ->action('ACtivate Account ', route('verify', $this->user->token))
             ->line('Thank you for using our application!')
-            ->markdown('vendor.mail.welcome.index', [
+            ->markdown('vendor.mail.verification.index', [
                 'user' => $this->user->name,
                 'url' => route('verify', $this->user->token),
                 'title' => 'Email  Verification',
