@@ -6,19 +6,20 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
+use App\User;
 
 class VerifyEmail extends Notification
 {
     use Queueable;
-
+    public $user;
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(User $user)
     {
-        //
+        $this->user = $user;
     }
 
     /**
@@ -41,9 +42,10 @@ class VerifyEmail extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+                    ->line("Thank you for signing up with Wee-Document !.")
+                    ->line('Please verify your email account, by clicking the button.')
+                    ->action('Verify Account', route('verify', $this->user->token))
+                    ->line('If you didn\'t request this, please ignore.!');
     }
 
     /**

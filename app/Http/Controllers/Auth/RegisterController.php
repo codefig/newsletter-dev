@@ -71,5 +71,9 @@ class RegisterController extends Controller
             'has_paid' => null,
             'is_subscribed' => null,
         ]);
+
+        $user->sendVerificationEmail();
+
+        return $user;
     }
 }
