@@ -72,7 +72,7 @@ class RegisterController extends Controller
             'is_subscribed' => null,
         ]);
 
-        $user->sendVerificationEmail();
+        // $user->sendVerificationEmail();
 
         return $user;
     }
