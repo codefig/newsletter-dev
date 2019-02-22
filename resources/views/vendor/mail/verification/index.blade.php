@@ -2,7 +2,7 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url'), 'title' => 'Soemthing Veirficto'])
-            Wee-Documents
+            WeeDo-Documents
         @endcomponent
     @endslot
 {{-- Body --}}
@@ -12,7 +12,7 @@
   @endslot
 
   @slot('otherMessage')
-    Please verify your Wee-Documents account by clicking the button below
+    Please verify your WeeDo-Documents account by clicking the button below
   @endslot
 
         @slot('bodycontents')
@@ -35,7 +35,7 @@
 {{-- Footer --}}
     @slot('footer')
         @component('mail::footer')
-            © {{ date('Y') }} {{ config('app.name') }}. Super FOOTER!
+            © {{ date('Y') }} Weedo-Documents. All rights reserved.
         @endcomponent
     @endslot
 @endcomponent
