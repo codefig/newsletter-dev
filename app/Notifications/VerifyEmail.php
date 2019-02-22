@@ -42,7 +42,7 @@ class VerifyEmail extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->from('support@weedo-documents.com', 'WeeDo-Documents')
+            ->from('support@weedoo-documents.com', 'WeeDoo-Documents')
             ->subject('Account Verification')
             ->action('ACtivate Account ', route('verify', $this->user->token))
             ->line('Thank you for using our application!')
@@ -51,7 +51,7 @@ class VerifyEmail extends Notification
                 'url' => route('verify', $this->user->token),
                 'title' => 'Email  Verification',
                 'message' => 'Please click on this link to verify your account',
-                'subcopy' => 'support@weedo-documents.com'
+                'subcopy' => 'support@WeeDoo-documents.com'
             ]);
     }
 

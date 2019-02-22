@@ -2,7 +2,7 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url'), 'title' => 'Soemthing Veirficto'])
-            WeeDo-Documents
+            WeeDoo-Documents
         @endcomponent
     @endslot
 {{-- Body --}}
@@ -12,7 +12,7 @@
   @endslot
 
   @slot('otherMessage')
-    Please verify your WeeDo-Documents account by clicking the button below
+    Please verify your WeeDoo-Documents account by clicking the button below
   @endslot
 
         @slot('bodycontents')
@@ -27,7 +27,7 @@
     @isset($subcopy)
         @slot('subcopy')
             @component('mail::subcopy')
-               Yours, Wee-Documents Team.
+               Yours, WeeDoo-Documents Team.
                 {{ $subcopy }}
             @endcomponent
         @endslot
@@ -35,7 +35,7 @@
 {{-- Footer --}}
     @slot('footer')
         @component('mail::footer')
-            © {{ date('Y') }} Weedo-Documents. All rights reserved.
+            © {{ date('Y') }} WeeDoo-Documents. All rights reserved.
         @endcomponent
     @endslot
 @endcomponent
