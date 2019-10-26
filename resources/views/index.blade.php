@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Wee-Document | Home : W3layouts</title>
+<title>NewsLetter | Home : W3layouts</title>
 
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<meta name="keywords" content="Wee-Document Responsive web template" />
+	<meta name="keywords" content="NewsLetter Responsive web template" />
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -39,7 +39,7 @@
 			<div class="header-agile">
 				<h1>
 					<a class="navbar-brand logo" href="index.html">
-						<span class="fa fa-copyright" aria-hidden="true"></span>Wee-Document
+						<span class="fa fa-copyright" aria-hidden="true"></span>NewsLetter
 					</a>
 				</h1>
 			</div>
@@ -94,7 +94,7 @@
 								<h5 class="tag mb-3 text-uppercase">We are professional <span class="ml-2"><span></h5>
 								<h1 class="movetxt agile-title text-capitalize">Consult Your</h1>
 								<h4 class="movetxt mb-3 agile-title text-capitalize">Business With Us</h4>
-								<p>We help you manage your documents and ensure they are been delivered as expected</p>
+								<p>We help you automate and manage your Email Templating and ensure they are been delivered as expected</p>
 								<a class="btn mt-4 text-capitalize" href="#welcome"> Know More </a>
 								<a class="btn btn1 mt-4 text-capitalize scroll" href="#contact" > Get Started </a>
 							</div>
@@ -110,8 +110,8 @@
 								<h5 class="tag mb-3 text-uppercase">We are unique <span class="ml-2"><span></h5>
 								<h4 class="movetxt agile-title text-capitalize">Creative Design </h4>
 								<h4 class="movetxt mb-3 agile-title text-capitalize">Manage Business </h4>
-								<p>Vivamus eget est in odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,
-								ut auctor turpis cursus. Sed sed odio pharetra, aliquet velit cursus, vehicula enim. Mauris porta aliquet magna, eget laoreet ligula.</p>
+								<p>We help you project the growth needed for your clients, by providing adequate email structures that can be automatically scheduled
+                                    from our dashboard.</p>
 								<a class="btn mt-4 text-capitalize" href="#welcome"> Know More </a>
 								<a class="btn btn1 mt-4 text-capitalize scroll" href="#contact" > Get Started </a>
 							</div>
@@ -127,8 +127,7 @@
 								<h5 class="tag mb-3 text-uppercase">We are creative <span class="ml-2"><span></h5>
 								<h4 class="movetxt agile-title text-capitalize">High Quality </h4>
 								<h4 class="movetxt mb-3 agile-title text-capitalize">Creative thinking </h4>
-								<p>Vivamus eget est in odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,
-								ut auctor turpis cursus. Sed sed odio pharetra, aliquet velit cursus, vehicula enim. Mauris porta aliquet magna, eget laoreet ligula.</p>
+								<p>With High Quality Content Upload for various email extensions and Newsletter design, we are your best bet when it comes to efficiency and accuracy.</p>
 								<a class="btn mt-4 text-capitalize" href="#welcome"> Know More </a>
 								<a class="btn btn1 mt-4 text-capitalize scroll" href="#contact" > Get Started </a>
 							</div>
@@ -142,10 +141,9 @@
 						<div class="banner-text">
 							<div class="container">
 								<h5 class="tag mb-3 text-uppercase">We are awesome <span class="ml-2"><span></h5>
-								<h4 class="movetxt agile-title text-capitalize">Tons of Projects </h4>
+								<h4 class="movetxt agile-title text-capitalize">Awesome Delivery</h4>
 								<h4 class="movetxt mb-3 agile-title text-capitalize">With Consultancy </h4>
-								<p>Vivamus eget est in odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,
-								ut auctor turpis cursus. Sed sed odio pharetra, aliquet velit cursus, vehicula enim. Mauris porta aliquet magna, eget laoreet ligula.</p>
+								<p>Delivery to your targeted clients should be marred with errors, with that you can trust us to help amaze your listening customers.</p>
 								<a class="btn mt-4 text-capitalize" href="#welcome"> Know More </a>
 								<a class="btn btn1 mt-4 text-capitalize scroll" href="#contact" > Get Started </a>
 							</div>
@@ -169,8 +167,8 @@
 <!-- welcome -->
 <section class="welcome py-5" id="welcome">
 	<div class="container py-sm-3">
-		<h3 class="heading mb-4">Welcome to Wee-Document</h3>
-		<p>Something has to be written here</p>
+		<h3 class="heading mb-4">Welcome to NewsLetter</h3>
+		<p>Another content will be provided here</p>
 
 	</div>
 </section>
@@ -184,19 +182,21 @@
 			<div class="col-lg-4 col-md-6 grid1">
 				<span class="number">01</span>
 				<h3> <span class="fa fa-desktop"></span> Consultancy </h3>
-				<p>Nulla felis tortor, rutrum eget feugiat non, blandit nec tellus. Nam pharetra ipsum ligula volutpat, a finibus Nam pharetra ipsum ligula volutpat.</p>
+				<p>We help you automate and manage your Email Templating and ensure they are been delivered as expected, We are professionals at what we do, and that gave room
+                    for trust from our clients.</p>
 				<a href="#">Read More <span class="fa fa-caret-right"></span></a>
 			</div>
 			<div class="col-lg-4 col-md-6 mt-md-0 mt-5 grid1">
 				<span class="number">02</span>
 				<h3> <span class="fa fa-building"></span> Grow Business </h3>
-				<p>Nulla felis tortor, rutrum eget feugiat non, blandit nec tellus. Nam pharetra ipsum ligula volutpat, a finibus Nam pharetra ipsum ligula volutpat.</p>
+				<p>We help you project the growth needed for your clients, by providing adequate email structures that can be automatically scheduled
+                                    from our dashboard</p>
 				<a href="#">Read More <span class="fa fa-caret-right"></span></a>
 			</div>
 			<div class="col-lg-4 col-md-6 mt-lg-0 mt-5 grid1">
 				<span class="number">03</span>
 				<h3> <span class="fa fa-ticket"></span> 24/7 Support </h3>
-				<p>Nulla felis tortor, rutrum eget feugiat non, blandit nec tellus. Nam pharetra ipsum ligula volutpat, a finibus Nam pharetra ipsum ligula volutpat.</p>
+				<p>Delivery to your targeted clients should be marred with errors, with that you can trust us to help amaze your listening customers.</p>
 				<a href="#">Read More <span class="fa fa-caret-right"></span></a>
 			</div>
 		</div>
@@ -215,43 +215,6 @@
 </section>
 <!-- //project -->
 
-<!-- section -->
-<section class="section py-5">
-	<div class="container py-md-5">
-		<div class="row section_grids">
-			<div class="col-lg-6">
-				<h3> blandit nec tellus. Namnec elit pharetra ipsum ligula</h3>
-				<p class="my-4">Nulla felis tortor, rutrum eget feugiat non, blandit nec tellus. Nam pharetra ipsum ligula volutpat, a finibus. Vivamus eget est
-				init odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,ut auctor turpis cursus.
-				Sed sed odio pharetra, aliquet velit cursus, vehicula enim.</p>
-				<p>Nam pharetra ipsum,	ligula volutpat a finibus.Vivamus eget est ac finibus ante. Sed mattis risus eget laoreet ligula</p>
-			</div>
-			<div class="col-lg-6 mt-lg-0 mt-5 img">
-				<img src="images/s2.jpg" class="img-fluid" alt=""/>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //section -->
-
-<!-- section -->
-<section class="section py-5 bg-light">
-	<div class="container py-md-5">
-		<div class="row section_grids">
-			<div class="col-lg-6">
-				<img src="images/s1.jpg" class="img-fluid" alt=""/>
-			</div>
-			<div class="col-lg-6 mt-lg-0 mt-5">
-				<h3> Nam pharetra ipsum ligula elit volutpat, a finibus ipsum.</h3>
-				<p class="my-4">Nulla felis tortor, rutrum eget feugiat non, blandit nec tellus. Nam pharetra ipsum ligula volutpat, a finibus. Vivamus eget est
-				init odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,ut auctor turpis cursus.
-				Sed sed odio pharetra, aliquet velit cursus, vehicula enim.</p>
-				<a href="#"> Read More </a>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //section -->
 
 <!-- pricing plans -->
 <section class="pricing py-5" id="pricing">
@@ -310,90 +273,6 @@
 	</div>
 </section>
 <!-- //pricing plans -->
-
-<!-- testimonials -->
-<section class="testimonials banner-bottom-agile-w3ls" id="testimonials">
-	<div class="layer py-5">
-		<div class="container py-md-3">
-			<h3 class="heading text-capitalize text-white mb-lg-5 mb-4">Testimonials</h3>
-			<div class="row">
-				<div class="feedback-info col-md-6">
-					<div class="feedback-top">
-						<span class="fa fa-quote-right"></span>
-						<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec tellus.
-							Nam pharetra ipsum ligula, a finibus.</p>
-						<div class="clearfix"></div>
-					</div>
-					<div class="feedback-grids">
-						<div class="feedback-img">
-							<img src="images/test1.jpg" class="img-fluid" alt="" />
-						</div>
-						<div class="feedback-img-info">
-							<h5>Mary Jane</h5>
-							<p class="font-italic">- Aug 24, 2018</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="feedback-info col-md-6 mt-md-0 mt-5">
-					<div class="feedback-top">
-						<span class="fa fa-quote-right"></span>
-						<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec tellus.
-							Nam pharetra ipsum ligula, a finibus.</p>
-						<div class="clearfix"></div>
-					</div>
-					<div class="feedback-grids">
-						<div class="feedback-img">
-							<img src="images/test2.jpg" class="img-fluid" alt="" />
-						</div>
-						<div class="feedback-img-info">
-							<h5>Peter Guptill</h5>
-							<p class="font-italic">Aug 24, 2018</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="feedback-info col-md-6 mt-5">
-					<div class="feedback-top">
-						<span class="fa fa-quote-right"></span>
-						<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec tellus.
-							Nam pharetra ipsum ligula, a finibus.</p>
-						<div class="clearfix"></div>
-					</div>
-					<div class="feedback-grids">
-						<div class="feedback-img">
-							<img src="images/test1.jpg" class="img-fluid" alt="" />
-						</div>
-						<div class="feedback-img-info">
-							<h5>Steven Wilson</h5>
-							<p class="font-italic">Aug 24, 2018</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="feedback-info col-md-6 mt-5">
-					<div class="feedback-top">
-						<span class="fa fa-quote-right"></span>
-						<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. blandit nec tellus.
-							Nam pharetra ipsum ligula, a finibus.</p>
-						<div class="clearfix"></div>
-					</div>
-					<div class="feedback-grids">
-						<div class="feedback-img">
-							<img src="images/test2.jpg" class="img-fluid" alt="" />
-						</div>
-						<div class="feedback-img-info">
-							<h5>Mary Jane</h5>
-							<p class="font-italic">Aug 24, 2018</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //testimonials -->
 
 <!-- Contact -->
 <section class="contact py-5" id="contact">
@@ -455,16 +334,15 @@
 		<div class="row footer_grids">
 			<div class="col-lg-4 footer_left">
 				<h2><a class="footer-logo" href="index.html">
-				<span class="fa mr-1 fa-copyright"></span>Wee-Document</a></h2>
-				<p>Nulla felis tortor, rutrum eget feugiat non, blandit nec tellus. Nam pharetra ipsum ligula volutpat, a finibus.
-				Fusce males uada sollicitudin venenatis. </p>
+				<span class="fa mr-1 fa-copyright"></span>NewsLetter</a></h2>
+				<p>Awesome newsletter management at your disposal, with your ability to command the targeted recipients and schedule prompt delivery. </p>
 			</div>
 			<div class="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_middle">
 				<h3 class="mb-sm-4 mb-3">Twitter Feed</h3>
 				<ul>
-					<li class="mb-2">Ut aut reiciendis voluptatibus Nam pharet <a href="#">http://example.com</a> alias.
+					<li class="mb-2">You can follow us on Twitter <a href="#">http://example.com</a> alias.
 						<span>- <span class="fa mr-1 fa-twitter" aria-hidden="true"></span> 02 days ago</span></li>
-					<li>Itaque earum rerum hic tenetur a sapiente <a href="#">http://example.com</a>
+					<li>And you can see some of our tweets <a href="#">http://example.com</a>
 					<span>- <span class="fa mr-1 fa-twitter" aria-hidden="true"></span> 03 days ago</span></li>
 				</ul>
 			</div>
@@ -484,7 +362,7 @@
 	</div>
 </footer>
 		<div class="copyright text-center py-3">
-			<p>© 2018 CWee-Document. All Rights Reserved |  </p>
+			<p>© 2018 CNewsLetter. All Rights Reserved |  </p>
 		</div>
 <!-- //footer -->
 
