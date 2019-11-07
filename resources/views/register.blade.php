@@ -139,7 +139,7 @@
                 <span aria-hidden="true">&times;</span>
                 <span class="sr-only">Close</span>
             </button>
-            <strong>Errrrrrrrrr!</strong> Please check out the following.
+            <strong></strong>
             @foreach ($errors->all() as $err)
                 <li>{{ $err }}</li>
             @endforeach

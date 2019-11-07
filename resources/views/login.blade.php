@@ -91,7 +91,7 @@
         <h4 class="fw-300 c-grey-900 mB-40">Login</h4>
 
 
-        <form method="POST" action="{{ route('login') }}">
+        <form method="POST" action="{{ route('login.post') }}">
 
           <div class="form-group">
             <label class="text-normal text-dark">Username</label>
@@ -123,6 +123,7 @@
               </div>
               <div class="peer">
                 <button class="btn btn-primary">Login</button>
+                <input type="hidden" name="_token" value="{{ Session::token() }}" />
               </div>
             </div>
           </div>

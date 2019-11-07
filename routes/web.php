@@ -13,15 +13,14 @@
 
 Route::get('/', 'SignUpController@index')->name('index');
 
-Route::get('/login', 'SignUpController@login')->name('login');
+Route::get('/login', 'SignUpController@showLogin')->name('login');
 
 Route::get('/register', 'SignUpController@showRegister')->name('register');
 
 Route::post('/register', 'SignUpController@register')->name('register.post');
+Route::post('/login', 'SignUpController@login')->name('login.post');
 
-Route::get('/dashboard', function () {
-    return view('users.dashboard');
-})->name('dashboard');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 
 Route::get('/logout', 'HomeController@logout')->name('logout');
 

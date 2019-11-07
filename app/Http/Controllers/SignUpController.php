@@ -23,7 +23,7 @@ class SignUpController extends Controller
         return view('index');
     }
 
-    public function login()
+    public function showLogin()
     {
         return view('login');
     }
@@ -52,6 +52,24 @@ class SignUpController extends Controller
             ]);
             Auth::login($user);
             return redirect()->route('home');
+        }
+    }
+
+    public function login(Request $request)
+    {
+
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|email',
+            'password' => 'required',
+        ]);
+        if ($validator->fails()) {
+            return redirect('login')->withInput(Input::all())->withErrors($validator);
+        }
+
+        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
+            return redirect()->route('dashboard');
+        } else {
+            return redirect()->back();
         }
     }
 }
