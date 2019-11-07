@@ -18,6 +18,21 @@ class SignUpController extends Controller
     }
 
 
+    public function index(Request $request)
+    {
+        return view('index');
+    }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function showRegister()
+    {
+        return view('register');
+    }
+
     public function register(Request $request)
     {
 
