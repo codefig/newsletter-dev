@@ -117,7 +117,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="sidebar-link" href="calendar.html"
+              <a class="sidebar-link" href="#"
                 ><span class="icon-holder"
                   ><i class="c-deep-orange-500 ti-calendar"></i> </span
                 ><span class="title">New Mail-list</span></a
