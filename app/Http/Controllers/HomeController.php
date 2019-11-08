@@ -24,12 +24,23 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('user.dashboard');
+        $user = Auth::user();
+        return view('user.dashboard', compact('user'));
     }
 
     public function logout()
     {
         Auth::logout();
         return redirect()->route('index');
+    }
+
+    public function email()
+    {
+        return view('user.email');
+    }
+
+    public function compose()
+    {
+        return view('user.compose');
     }
 }

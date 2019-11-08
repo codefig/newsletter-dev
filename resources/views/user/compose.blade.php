@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width,initial-scale=1,shrink-to-fit=no"
     />
-    <title>Dashboard</title>
+    <title>Compose</title>
     <style>
       #loader {
         transition: all 0.3s ease-in-out;
@@ -54,7 +54,7 @@
         }
       }
     </style>
-    <link href="{{ URL::to('static/css/style.css') }}" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body class="app">
     <div id="loader"><div class="spinner"></div></div>
@@ -80,7 +80,7 @@
                       </div>
                     </div>
                     <div class="peer peer-greed">
-                      <h5 class="lh-1 mB-0 logo-text">NewsLetter</h5>
+                      <h5 class="lh-1 mB-0 logo-text">Adminator</h5>
                     </div>
                   </div></a
                 >
@@ -96,21 +96,21 @@
           </div>
           <ul class="sidebar-menu scrollable pos-r">
             <li class="nav-item mT-30 active">
-              <a class="sidebar-link" href="{{ route('home') }}"
+              <a class="sidebar-link" href="index.html"
                 ><span class="icon-holder"
                   ><i class="c-blue-500 ti-home"></i> </span
                 ><span class="title">Dashboard</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="sidebar-link" href="{{ route('email') }}"
+              <a class="sidebar-link" href="email.html"
                 ><span class="icon-holder"
                   ><i class="c-brown-500 ti-email"></i> </span
                 ><span class="title">Email</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="sidebar-link" href="{{ route('compose') }}"
+              <a class="sidebar-link" href="compose.html"
                 ><span class="icon-holder"
                   ><i class="c-blue-500 ti-share"></i> </span
                 ><span class="title">Compose</span></a
@@ -120,17 +120,105 @@
               <a class="sidebar-link" href="calendar.html"
                 ><span class="icon-holder"
                   ><i class="c-deep-orange-500 ti-calendar"></i> </span
-                ><span class="title">New Mail-list</span></a
+                ><span class="title">Calendar</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="sidebar-link" href="#"
+              <a class="sidebar-link" href="chat.html"
                 ><span class="icon-holder"
                   ><i class="c-deep-purple-500 ti-comment-alt"></i> </span
-                ><span class="title">Subscriber Lists</span></a
+                ><span class="title">Chat</span></a
               >
             </li>
-
+            <li class="nav-item">
+              <a class="sidebar-link" href="charts.html"
+                ><span class="icon-holder"
+                  ><i class="c-indigo-500 ti-bar-chart"></i> </span
+                ><span class="title">Charts</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="sidebar-link" href="forms.html"
+                ><span class="icon-holder"
+                  ><i class="c-light-blue-500 ti-pencil"></i> </span
+                ><span class="title">Forms</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="sidebar-link" href="ui.html"
+                ><span class="icon-holder"
+                  ><i class="c-pink-500 ti-palette"></i> </span
+                ><span class="title">UI Elements</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="javascript:void(0);"
+                ><span class="icon-holder"
+                  ><i class="c-orange-500 ti-layout-list-thumb"></i> </span
+                ><span class="title">Tables</span>
+                <span class="arrow"><i class="ti-angle-right"></i></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="sidebar-link" href="basic-table.html"
+                    >Basic Table</a
+                  >
+                </li>
+                <li>
+                  <a class="sidebar-link" href="datatable.html">Data Table</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="javascript:void(0);"
+                ><span class="icon-holder"
+                  ><i class="c-purple-500 ti-map"></i> </span
+                ><span class="title">Maps</span>
+                <span class="arrow"><i class="ti-angle-right"></i></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="google-maps.html">Google Map</a></li>
+                <li><a href="vector-maps.html">Vector Map</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="javascript:void(0);"
+                ><span class="icon-holder"
+                  ><i class="c-red-500 ti-files"></i> </span
+                ><span class="title">Pages</span>
+                <span class="arrow"><i class="ti-angle-right"></i></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a class="sidebar-link" href="blank.html">Blank</a></li>
+                <li><a class="sidebar-link" href="404.html">404</a></li>
+                <li><a class="sidebar-link" href="500.html">500</a></li>
+                <li><a class="sidebar-link" href="signin.html">Sign In</a></li>
+                <li><a class="sidebar-link" href="signup.html">Sign Up</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="javascript:void(0);"
+                ><span class="icon-holder"
+                  ><i class="c-teal-500 ti-view-list-alt"></i> </span
+                ><span class="title">Multiple Levels</span>
+                <span class="arrow"><i class="ti-angle-right"></i></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item dropdown">
+                  <a href="javascript:void(0);"><span>Menu Item</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="javascript:void(0);"
+                    ><span>Menu Item</span>
+                    <span class="arrow"><i class="ti-angle-right"></i></span
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0);">Menu Item</a></li>
+                    <li><a href="javascript:void(0);">Menu Item</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -162,7 +250,13 @@
             </ul>
             <ul class="nav-right">
               <li class="notifications dropdown">
-
+                <span class="counter bgc-red">3</span>
+                <a
+                  href=""
+                  class="dropdown-toggle no-after"
+                  data-toggle="dropdown"
+                  ><i class="ti-bell"></i
+                ></a>
                 <ul class="dropdown-menu">
                   <li class="pX-20 pY-15 bdB">
                     <i class="ti-bell pR-10"></i>
@@ -183,7 +277,7 @@
                           </div>
                           <div class="peer peer-greed">
                             <span
-                              ><span class="fw-500">{{ $user->name }}</span>
+                              ><span class="fw-500">John Doe</span>
                               <span class="c-grey-600"
                                 >liked your
                                 <span class="text-dark">post</span></span
@@ -384,7 +478,7 @@
                     />
                   </div>
                   <div class="peer">
-                    <span class="fsz-sm c-grey-900">{{ $user->name }}</span>
+                    <span class="fsz-sm c-grey-900">John Doe</span>
                   </div></a
                 >
                 <ul class="dropdown-menu fsz-sm">
@@ -407,7 +501,7 @@
                   </li>
                   <li role="separator" class="divider"></li>
                   <li>
-                    <a href="{{ route('logout') }}" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"
+                    <a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"
                       ><i class="ti-power-off mR-10"></i> <span>Logout</span></a
                     >
                   </li>
@@ -418,212 +512,170 @@
         </div>
         <main class="main-content bgc-grey-100">
           <div id="mainContent">
-            <div class="row gap-20 masonry pos-r">
-              <div class="masonry-sizer col-md-6"></div>
-              <div class="masonry-item w-100">
-                <div class="row gap-20">
-                  <div class="col-md-3">
-                    <div class="layers bd bgc-white p-20">
-                      <div class="layer w-100 mB-10">
-                        <h6 class="lh-1">Total Visits</h6>
-                      </div>
-                      <div class="layer w-100">
-                        <div class="peers ai-sb fxw-nw">
-                          <div class="peer peer-greed">
-                            <span id="sparklinedash"></span>
-                          </div>
-                          <div class="peer">
-                            <span
-                              class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500"
-                              >+10%</span
-                            >
-                          </div>
-                        </div>
-                      </div>
+            <div class="full-container">
+              <div class="email-app">
+                <div class="email-side-nav remain-height ov-h">
+                  <div class="h-100 layers">
+                    <div class="p-20 bgc-grey-100 layer w-100">
+                      <a href="/compose" class="btn btn-danger btn-block"
+                        >New Message</a
+                      >
+                    </div>
+                    <div class="scrollable pos-r bdT layer w-100 fxg-1">
+                      <ul class="p-20 nav flex-column">
+                        <li class="nav-item">
+                          <a
+                            href="javascript:void(0)"
+                            class="nav-link c-grey-800 cH-blue-500 active"
+                            ><div class="peers ai-c jc-sb">
+                              <div class="peer peer-greed">
+                                <i class="mR-10 ti-email"></i>
+                                <span>Inbox</span>
+                              </div>
+                              <div class="peer">
+                                <span
+                                  class="badge badge-pill bgc-deep-purple-50 c-deep-purple-700"
+                                  >+99</span
+                                >
+                              </div>
+                            </div></a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link c-grey-800 cH-blue-500"
+                            ><div class="peers ai-c jc-sb">
+                              <div class="peer peer-greed">
+                                <i class="mR-10 ti-share"></i> <span>Sent</span>
+                              </div>
+                              <div class="peer">
+                                <span
+                                  class="badge badge-pill bgc-green-50 c-green-700"
+                                  >12</span
+                                >
+                              </div>
+                            </div></a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link c-grey-800 cH-blue-500"
+                            ><div class="peers ai-c jc-sb">
+                              <div class="peer peer-greed">
+                                <i class="mR-10 ti-star"></i>
+                                <span>Important</span>
+                              </div>
+                              <div class="peer">
+                                <span
+                                  class="badge badge-pill bgc-blue-50 c-blue-700"
+                                  >3</span
+                                >
+                              </div>
+                            </div></a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link c-grey-800 cH-blue-500"
+                            ><div class="peers ai-c jc-sb">
+                              <div class="peer peer-greed">
+                                <i class="mR-10 ti-file"></i>
+                                <span>Drafts</span>
+                              </div>
+                              <div class="peer">
+                                <span
+                                  class="badge badge-pill bgc-amber-50 c-amber-700"
+                                  >5</span
+                                >
+                              </div>
+                            </div></a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link c-grey-800 cH-blue-500"
+                            ><div class="peers ai-c jc-sb">
+                              <div class="peer peer-greed">
+                                <i class="mR-10 ti-alert"></i> <span>Spam</span>
+                              </div>
+                              <div class="peer">
+                                <span
+                                  class="badge badge-pill bgc-red-50 c-red-700"
+                                  >1</span
+                                >
+                              </div>
+                            </div></a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="" class="nav-link c-grey-800 cH-blue-500"
+                            ><div class="peers ai-c jc-sb">
+                              <div class="peer peer-greed">
+                                <i class="mR-10 ti-trash"></i>
+                                <span>Trash</span>
+                              </div>
+                              <div class="peer">
+                                <span
+                                  class="badge badge-pill bgc-red-50 c-red-700"
+                                  >+99</span
+                                >
+                              </div>
+                            </div></a
+                          >
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="layers bd bgc-white p-20">
-                      <div class="layer w-100 mB-10">
-                        <h6 class="lh-1">Total Page Views</h6>
+                </div>
+                <div
+                  class="email-wrapper row remain-height pos-r scrollable bgc-white"
+                >
+                  <div class="email-content open no-inbox-view">
+                    <div class="email-compose">
+                      <div class="d-n@md+ p-20">
+                        <a
+                          class="email-side-toggle c-grey-900 cH-blue-500 td-n"
+                          href="javascript:void(0)"
+                          ><i class="ti-menu"></i
+                        ></a>
                       </div>
-                      <div class="layer w-100">
-                        <div class="peers ai-sb fxw-nw">
-                          <div class="peer peer-greed">
-                            <span id="sparklinedash2"></span>
+                      <form class="email-compose-body">
+                        <h4 class="c-grey-900 mB-20">Send Message</h4>
+                        <div class="send-header">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="To"
+                            />
                           </div>
-                          <div class="peer">
-                            <span
-                              class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-red-50 c-red-500"
-                              >-7%</span
-                            >
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="CC"
+                            />
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="layers bd bgc-white p-20">
-                      <div class="layer w-100 mB-10">
-                        <h6 class="lh-1">Unique Visitor</h6>
-                      </div>
-                      <div class="layer w-100">
-                        <div class="peers ai-sb fxw-nw">
-                          <div class="peer peer-greed">
-                            <span id="sparklinedash3"></span>
+                          <div class="form-group">
+                            <input
+                              class="form-control"
+                              placeholder="Email Subject"
+                            />
                           </div>
-                          <div class="peer">
-                            <span
-                              class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-purple-50 c-purple-500"
-                              >~12%</span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="layers bd bgc-white p-20">
-                      <div class="layer w-100 mB-10">
-                        <h6 class="lh-1">Bounce Rate</h6>
-                      </div>
-                      <div class="layer w-100">
-                        <div class="peers ai-sb fxw-nw">
-                          <div class="peer peer-greed">
-                            <span id="sparklinedash4"></span>
-                          </div>
-                          <div class="peer">
-                            <span
-                              class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-blue-50 c-blue-500"
-                              >33%</span
-                            >
+                          <div class="form-group">
+                            <textarea
+                              name="compose"
+                              class="form-control"
+                              placeholder="Say Hi..."
+                              rows="10"
+                            ></textarea>
                           </div>
                         </div>
-                      </div>
+                        <div id="compose-area"></div>
+                        <div class="text-right mrg-top-30">
+                          <button class="btn btn-danger">Send</button>
+                        </div>
+                      </form>
                     </div>
                   </div>
                 </div>
               </div>
-
-
-              <div class="masonry-item col-md-12">
-                <div class="bd bgc-white">
-                  <div class="layers">
-                    <div class="layer w-100 p-20">
-                      <h6 class="lh-1">Sales Report</h6>
-                    </div>
-                    <div class="layer w-100">
-                      <div class="bgc-light-blue-500 c-white p-20">
-                        <div class="peers ai-c jc-sb gap-40">
-                          <div class="peer peer-greed">
-                            <h5>November 2019</h5>
-                            <p class="mB-0">Sales Report</p>
-                          </div>
-                          <div class="peer">
-                            <h3 class="text-right">$6,000</h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="table-responsive p-20">
-                        <table class="table">
-                          <thead>
-                            <tr>
-                              <th class="bdwT-0">Name</th>
-                              <th class="bdwT-0">Status</th>
-                              <th class="bdwT-0">Date</th>
-                              <th class="bdwT-0">Price</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td class="fw-600">Item #1 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-red-50 c-red-700 p-10 lh-0 tt-c badge-pill"
-                                  >Unavailable</span
-                                >
-                              </td>
-                              <td>Nov 18</td>
-                              <td><span class="text-success">$12</span></td>
-                            </tr>
-                            <tr>
-                              <td class="fw-600">Item #2 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-deep-purple-50 c-deep-purple-700 p-10 lh-0 tt-c badge-pill"
-                                  >New</span
-                                >
-                              </td>
-                              <td>Nov 19</td>
-                              <td><span class="text-info">$34</span></td>
-                            </tr>
-                            <tr>
-                              <td class="fw-600">Item #3 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-pink-50 c-pink-700 p-10 lh-0 tt-c badge-pill"
-                                  >New</span
-                                >
-                              </td>
-                              <td>Nov 20</td>
-                              <td><span class="text-danger">-$45</span></td>
-                            </tr>
-                            <tr>
-                              <td class="fw-600">Item #4 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-green-50 c-green-700 p-10 lh-0 tt-c badge-pill"
-                                  >Unavailable</span
-                                >
-                              </td>
-                              <td>Nov 21</td>
-                              <td><span class="text-success">$65</span></td>
-                            </tr>
-                            <tr>
-                              <td class="fw-600">Item #5 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-red-50 c-red-700 p-10 lh-0 tt-c badge-pill"
-                                  >Used</span
-                                >
-                              </td>
-                              <td>Nov 22</td>
-                              <td><span class="text-success">$78</span></td>
-                            </tr>
-                            <tr>
-                              <td class="fw-600">Item #6 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-orange-50 c-orange-700 p-10 lh-0 tt-c badge-pill"
-                                  >Used</span
-                                >
-                              </td>
-                              <td>Nov 23</td>
-                              <td><span class="text-danger">-$88</span></td>
-                            </tr>
-                            <tr>
-                              <td class="fw-600">Item #7 Name</td>
-                              <td>
-                                <span
-                                  class="badge bgc-yellow-50 c-yellow-700 p-10 lh-0 tt-c badge-pill"
-                                  >Old</span
-                                >
-                              </td>
-                              <td>Nov 22</td>
-                              <td><span class="text-success">$56</span></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ta-c bdT w-100 p-20">
-                    <a href="#">Check all the sales</a>
-                  </div>
-                </div>
-              </div>
-
-
             </div>
           </div>
         </main>
@@ -637,7 +689,7 @@
         </footer>
       </div>
     </div>
-    <script type="text/javascript" src="{{ URL::to('static/js/vendor.js') }}"></script>
-    <script type="text/javascript" src="{{ URL::to('static/js/bundle.js') }}"></script>
+    <script type="text/javascript" src="assets/static/js/vendor.js"></script>
+    <script type="text/javascript" src="assets/static/js/bundle.js"></script>
   </body>
 </html>
