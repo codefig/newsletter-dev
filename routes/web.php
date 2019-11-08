@@ -11,6 +11,7 @@
 |
 */
 
+//Handles all application routes;
 Route::get('/', 'SignUpController@index')->name('index');
 Route::get('/login', 'SignUpController@showLogin')->name('login');
 Route::get('/register', 'SignUpController@showRegister')->name('register');
