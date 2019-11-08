@@ -150,7 +150,7 @@
                         </li>
                     </ul>
                     <ul class="nav-right">
-                        <li class="notifications dropdown"><span class="counter bgc-red">3</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-bell"></i></a>
+                        <li class="notifications dropdown"><span class="counter bgc-red">0</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-bell"></i></a>
                             <ul class="dropdown-menu">
                                 <li class="pX-20 pY-15 bdB"><i class="ti-bell pR-10"></i> <span class="fsz-sm fw-600 c-grey-900">Notifications</span></li>
                                 <li>
@@ -187,7 +187,7 @@
                                 <li class="pX-20 pY-15 ta-c bdT"><span><a href="" class="c-grey-600 cH-blue fsz-sm td-n">View All Notifications <i class="ti-angle-right fsz-xs mL-10"></i></a></span></li>
                             </ul>
                         </li>
-                        <li class="notifications dropdown"><span class="counter bgc-blue">3</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-email"></i></a>
+                        <li class="notifications dropdown"><span class="counter bgc-blue">0</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-email"></i></a>
                             <ul class="dropdown-menu">
                                 <li class="pX-20 pY-15 bdB"><i class="ti-email pR-10"></i> <span class="fsz-sm fw-600 c-grey-900">Emails</span></li>
                                 <li>
@@ -199,7 +199,7 @@
                                                     <div>
                                                         <div class="peers jc-sb fxw-nw mB-5">
                                                             <div class="peer">
-                                                                <p class="fw-500 mB-0">John Doe</p>
+                                                                <p class="fw-500 mB-0">{{ $user->name }}</p>
                                                             </div>
                                                             <div class="peer"><small class="fsz-xs">5 mins ago</small></div>
                                                         </div><span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span></div>
@@ -242,7 +242,7 @@
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle no-after peers fxw-nw ai-c lh-1" data-toggle="dropdown">
                                 <div class="peer mR-10"><img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/10.jpg" alt=""></div>
-                                <div class="peer"><span class="fsz-sm c-grey-900">John Doe</span></div>
+                                <div class="peer"><span class="fsz-sm c-grey-900">{{ $user->name }}</span></div>
                             </a>
                             <ul class="dropdown-menu fsz-sm">
                                 <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-settings mR-10"></i> <span>Setting</span></a></li>
@@ -563,7 +563,7 @@
                                                 <div class="peers peer-greed">
                                                     <div class="peer mR-20"><img class="bdrs-50p w-3r h-3r" alt="" src="https://randomuser.me/api/portraits/men/11.jpg"></div>
                                                     <div class="peer"><small>Nov, 02 2017</small>
-                                                        <h5 class="c-grey-900 mB-5">John Doe</h5><span>To: email@gmail.com</span></div>
+                                                        <h5 class="c-grey-900 mB-5">Ramizi Rinor</h5><span>To: email@gmail.com</span></div>
                                                 </div>
                                                 <div class="peer"><a href="" class="btn btn-danger bdrs-50p p-15 lh-0"><i class="fa fa-reply"></i></a></div>
                                             </div>
