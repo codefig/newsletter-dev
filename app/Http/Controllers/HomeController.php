@@ -42,6 +42,7 @@ class HomeController extends Controller
 
     public function compose()
     {
-        return view('user.compose');
+        $user = Auth::user();
+        return view('user.compose', compact('user'));
     }
 }
