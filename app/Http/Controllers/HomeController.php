@@ -36,7 +36,8 @@ class HomeController extends Controller
 
     public function email()
     {
-        return view('user.email');
+        $user = Auth::user();
+        return view('user.email', compact('user'));
     }
 
     public function compose()
